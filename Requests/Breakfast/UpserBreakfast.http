@@ -1,0 +1,19 @@
+@id=59ed6c19-be95-4d66-8942-67797d99f6cb
+
+PUT http://localhost:5011/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "Name": "Eggs Benedict",
+    "Description": "Eggs on toast with ham",
+    "StartDateTime": "2015-01-01T08:00:00Z",
+    "EndDateTime": "2015-01-01T09:00:00Z",
+    "Savory": [
+        "Eggs",
+        "Ham"
+        ],
+    "Sweet": [      
+        "Toast",
+        "Butter"
+        ]
+}
